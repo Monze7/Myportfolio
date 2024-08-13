@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="video-background">
+        <video autoplay muted loop>
+            <source src="bg.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="container">
+        <div class="header">
+            <h1>My Portfolio</h1>
+            <div class="nava">
+                <nav>
+                    <a href="#about">About</a>
+                    <a href="#interests">Interests</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact Me</a>
+                </nav>
+            </div>
+        </div>
+        <div class="content" id="about">
+            <h2>About Me</h2>
+            <div class="about-section">
+                <div class="image">
+                    <img src="ta.jpg" alt="Profile Picture">
+                </div>
+                <div class="description">
+                    <p><b>Hello! My name is Monil Lakhotia. I'm a 3rd-year student at SRM Chennai, and I come from Jodhpur. I'm a core Java developer who loves to solve DSA (Data Structures and Algorithms) problems. I'm passionate about creating efficient and scalable software solutions.</b></p>
+                </div>
+            </div>
+        </div>
+        <div class="content" id="interests">
+            <h2>My Interests</h2>
+            <b>
+            <div class="interests-grid">
+                <div class="interest-item">Core Java Development</div>
+                <div class="interest-item">Solving DSA Problems</div>
+                <div class="interest-item">Building Efficient Algorithms</div>
+                <div class="interest-item">Exploring New Java Libraries and Frameworks</div>
+            </div>
+            </b>
+        </div>        
+        <div class="content" id="projects">
+            <h2>Projects</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Project Name</th>
+                        <th>Description</th>
+                        <th>Technologies Used</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Task Manager</td>
+                        <td>A Java-based desktop application for managing daily tasks and to-do lists.</td>
+                        <td>Java, Swing</td>
+                    </tr>
+                    <tr>
+                        <td>Library Management System</td>
+                        <td>A desktop application for managing a library's inventory, members, and transactions.</td>
+                        <td>Java, Swing, MySQL</td>
+                    </tr>
+                    <tr>
+                        <td>Expense Tracker</td>
+                        <td>A Java Swing application for tracking personal expenses and generating reports.</td>
+                        <td>Java, Swing, SQLite</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="content" id="contact">
+            <h2>Contact Me</h2>
+            <form class="contact-form" action="#">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+            <b>
+            <p class="reach">You can also reach me at:</p>
+            <div class="contact-info">
+                <a href="tel:7340447522" class="contact-link" title="Phone">
+                    <img src="call.jpg" alt="Phone" class="contact-icon">
+                </a>
+                <a href="mailto:Monillakhotia912@gmail.com" class="contact-link-gmail" title="Email">
+                    <img src="gmail.webp" alt="Email" class="contact-icon">
+                </a>
+                <a href="https://www.linkedin.com/in/monil-lakhotia-64152825b/" target="_blank" class="contact-link" title="LinkedIn">
+                    <img src="link.png" alt="LinkedIn" class="contact-icon">
+                </a>
+                <a href="https://leetcode.com/u/Monze/" target="_blank" class="contact-link" title="LeetCode">
+                    <img src="leet.png" alt="LeetCode" class="contact-icon">
+                </a>
+            </div>
+            </b>
+        </div>
+        <div class="footer">
+            <p>&copy; 2024 My Portfolio</p>
+        </div>
+    </div>
+</body>
+</html>
